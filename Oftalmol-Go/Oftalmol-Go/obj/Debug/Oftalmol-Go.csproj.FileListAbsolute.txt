@@ -1,0 +1,15 @@
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\bin\Debug\Oftalmol-Go.exe.config
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\bin\Debug\Oftalmol-Go.exe
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\bin\Debug\Oftalmol-Go.pdb
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol-Go.csprojAssemblyReference.cache
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.Properties.Resources.resources
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol-Go.csproj.GenerateResource.cache
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol-Go.exe
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol-Go.pdb
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\bin\Debug\aa-ER\Oftalmol-Go.resources.dll
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\aa-ER\Oftalmol-Go.resources.dll
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.FormMenu.resources
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.FormMenu.aa-ER.resources
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.FormCrearCita.resources
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.FormModificarCita.resources
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.FormConsulta.resources
