@@ -13,3 +13,4 @@ C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.FormMenu.aa
 C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.FormCrearCita.resources
 C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.FormModificarCita.resources
 C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.FormConsulta.resources
+C:\Users\ocamp\Desktop\Oftalmol-Go\Oftalmol-Go\obj\Debug\Oftalmol_Go.FormModifica.resources

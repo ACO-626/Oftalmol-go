@@ -21,5 +21,29 @@ namespace Oftalmol_Go
         {
             this.Close();
         }
+
+        private void btnModFecha_Click(object sender, EventArgs e)
+        {
+            Form VentanaModificacion = new FormModifica();
+            VentanaModificacion.Show();
+        }
+
+        private void btnModNombre_Click(object sender, EventArgs e)
+        {
+            Form VentanaModificacion = new FormModifica();
+            VentanaModificacion.Show();
+        }
+
+        private void btnModTel_Click(object sender, EventArgs e)
+        {
+            Form VentanaModificacion = new FormModifica();
+            VentanaModificacion.Show();
+        }
+
+        private void btnModCorreo_Click(object sender, EventArgs e)
+        {
+            Form VentanaModificacion = new FormModifica();
+            VentanaModificacion.Show();
+        }
     }
 }

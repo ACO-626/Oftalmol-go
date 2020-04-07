@@ -50,7 +50,7 @@
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Location = new System.Drawing.Point(12, 12);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(155, 68);
+            this.btnHome.Size = new System.Drawing.Size(167, 68);
             this.btnHome.TabIndex = 1;
             this.btnHome.Text = "HOME";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -73,6 +73,7 @@
             this.btnModFecha.Size = new System.Drawing.Size(455, 89);
             this.btnModFecha.TabIndex = 5;
             this.btnModFecha.UseVisualStyleBackColor = false;
+            this.btnModFecha.Click += new System.EventHandler(this.btnModFecha_Click);
             // 
             // lbSimpleQueModificar
             // 
@@ -103,6 +104,7 @@
             this.btnModNombre.Size = new System.Drawing.Size(455, 89);
             this.btnModNombre.TabIndex = 10;
             this.btnModNombre.UseVisualStyleBackColor = false;
+            this.btnModNombre.Click += new System.EventHandler(this.btnModNombre_Click);
             // 
             // btnModTel
             // 
@@ -120,6 +122,7 @@
             this.btnModTel.Size = new System.Drawing.Size(455, 89);
             this.btnModTel.TabIndex = 11;
             this.btnModTel.UseVisualStyleBackColor = false;
+            this.btnModTel.Click += new System.EventHandler(this.btnModTel_Click);
             // 
             // btnModCorreo
             // 
@@ -137,6 +140,7 @@
             this.btnModCorreo.Size = new System.Drawing.Size(455, 89);
             this.btnModCorreo.TabIndex = 12;
             this.btnModCorreo.UseVisualStyleBackColor = false;
+            this.btnModCorreo.Click += new System.EventHandler(this.btnModCorreo_Click);
             // 
             // FormModificarCita
             // 

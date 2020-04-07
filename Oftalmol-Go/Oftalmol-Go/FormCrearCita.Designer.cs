@@ -64,7 +64,7 @@
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Location = new System.Drawing.Point(12, 12);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(155, 68);
+            this.btnHome.Size = new System.Drawing.Size(172, 68);
             this.btnHome.TabIndex = 0;
             this.btnHome.Text = "HOME";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
