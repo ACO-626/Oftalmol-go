@@ -1,15 +1,37 @@
-﻿using System;
+﻿#region BIBLIOTECAS
+//Bibliotecas básicas
+
+using System;
 using System.Windows.Forms;
+
+//Bibliotecas de BD
+
+using FireSharp.Config;
+using FireSharp.Response;
+using FireSharp.Interfaces;
+#endregion
 
 namespace Oftalmol_Go
 {
     public partial class FormCrearCita : Form
     {
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "608vd6SDwtR7uGhPNhd9j7bbgL0E2mR0xbhyOwSk",
+            BasePath = "https://oftalmol-godb.firebaseio.com/"
+
+        };
+        IFirebaseClient client;
+        
+
+        #region INICIALIZACIÓN BÁSICA DE VENTANA
         public FormCrearCita()
         {
             InitializeComponent();
         }
-
+        #endregion
+        
+        #region COMPORTAMIENTO DE TEXTBOX
         //Comportamiento de Nombre paciente
         private void txtbPaciente_Enter(object sender, EventArgs e)
         {
@@ -31,24 +53,13 @@ namespace Oftalmol_Go
         //Fin de sección de Paciente nombre
         //
         //
-
-        private void lbSimpleCancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         //Comportamiento de caja teléfono
         private void txtbTel_Enter(object sender, EventArgs e)
         {
             if (txtbTel.Text == "Tel.")
             {
                 txtbTel.Text = "";
-                
+
             }
         }
 
@@ -77,28 +88,59 @@ namespace Oftalmol_Go
                 txtbmail.Text = "Correo";
             }
         }
-
-        private void btnAgendarCita_Click(object sender, EventArgs e)
+        #endregion
+        
+        #region BOTONES
+        private void lbSimpleCancel_Click(object sender, EventArgs e)
         {
-            if(txtbPaciente.Text=="Nombre" || txtbTel.Text=="Tel.")
+            this.Close();
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        #endregion
+
+        #region MANEJO DE EXCEPCIONES AL INGRESAR DATOS DE CITA
+        private async void btnAgendarCita_Click(object sender, EventArgs e)
+        {
+
+           
+            if (txtbPaciente.Text=="Nombre" || txtbTel.Text=="Tel.")
             {
                 MessageBox.Show("FALTAN DATOS POR LLENAR", "ADVERTENCIA", MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
             else
             {
-                MessageBox.Show("REGISTRO EXITOSO EN LA BASE DE DATOS", "MENSAJE", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                client = new FireSharp.FirebaseClient(config);
+                var cita = new Cita
+                {
+                    //citaId
+                    //day
+                    //mounth
+                    //year
+                    nombrePaciente = txtbPaciente.Text,
+                    telefonoPciente = txtbTel.Text,
+                    correoPaciente = txtbmail.Text
+                };
+
+                SetResponse response = await client.SetTaskAsync("PACIENTES/" + txtbPaciente.Text, cita);
+                Cita resultados = response.ResultAs<Cita>();
+
+                MessageBox.Show("Registro exitoso en la base de datos", "BASE DE DATOS", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
+         
         }
+        #endregion
 
+        #region PARAMETROS DE INICIALIZACIÓN DE BASE DE DATOS EN FIREBASE
+        public void FormCrearCita_Load(object sender, EventArgs e)
+        {
 
-
-
-
-
-        //Fin de comportamiento de caja de texto correo
-
-
+        }
+        #endregion
 
     }
 }

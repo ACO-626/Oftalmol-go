@@ -160,12 +160,14 @@
             // 
             // txtbPaciente
             // 
-            this.txtbPaciente.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbPaciente.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbPaciente.Location = new System.Drawing.Point(843, 159);
+            this.txtbPaciente.Multiline = true;
             this.txtbPaciente.Name = "txtbPaciente";
-            this.txtbPaciente.Size = new System.Drawing.Size(387, 45);
+            this.txtbPaciente.Size = new System.Drawing.Size(387, 42);
             this.txtbPaciente.TabIndex = 24;
             this.txtbPaciente.Text = "Nombre";
+            this.txtbPaciente.WordWrap = false;
             this.txtbPaciente.Enter += new System.EventHandler(this.txtbPaciente_Enter);
             this.txtbPaciente.Leave += new System.EventHandler(this.txtbPaciente_Leave);
             // 
@@ -222,17 +224,20 @@
             this.txtbTel.Size = new System.Drawing.Size(387, 45);
             this.txtbTel.TabIndex = 34;
             this.txtbTel.Text = "Tel.";
+            this.txtbTel.WordWrap = false;
             this.txtbTel.Enter += new System.EventHandler(this.txtbTel_Enter);
             this.txtbTel.Leave += new System.EventHandler(this.txtbTel_Leave);
             // 
             // txtbmail
             // 
-            this.txtbmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbmail.Location = new System.Drawing.Point(843, 496);
+            this.txtbmail.Multiline = true;
             this.txtbmail.Name = "txtbmail";
-            this.txtbmail.Size = new System.Drawing.Size(387, 45);
+            this.txtbmail.Size = new System.Drawing.Size(387, 44);
             this.txtbmail.TabIndex = 35;
             this.txtbmail.Text = "Correo";
+            this.txtbmail.WordWrap = false;
             this.txtbmail.Enter += new System.EventHandler(this.txtbmail_Enter);
             this.txtbmail.Leave += new System.EventHandler(this.txtbmail_Leave);
             // 
@@ -325,6 +330,7 @@
             this.Name = "FormCrearCita";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Creación de Cita";
+            this.Load += new System.EventHandler(this.FormCrearCita_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -1,22 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿#region BIBLIOTECAS
+using System;
 using System.Windows.Forms;
+#endregion
 
 namespace Oftalmol_Go
 {
     public partial class FormModificarCita : Form
     {
+        #region INICIALIZACION DE VENTANA
         public FormModificarCita()
         {
             InitializeComponent();
         }
-
+        #endregion
+        #region BOTONES
         private void btnHome_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -45,5 +42,6 @@ namespace Oftalmol_Go
             Form VentanaModificacion = new FormModifica();
             VentanaModificacion.Show();
         }
+#endregion
     }
 }
