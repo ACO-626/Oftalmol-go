@@ -1,22 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿#region BIBLIOTECAS
+using System;
 using System.Windows.Forms;
+#endregion
 
 namespace Oftalmol_Go
 {
-    static class Program
+    public class Program
     {
+
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
         [STAThread]
+
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMenu());
+            Form VentanaLogin = new FormLogin();
+            VentanaLogin.Show();
+            Application.Run();
         }
     }
 }

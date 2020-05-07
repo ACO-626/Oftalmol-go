@@ -47,7 +47,9 @@
             this.btnAgendarCita = new System.Windows.Forms.Button();
             this.lbSimpleCancel = new System.Windows.Forms.Label();
             this.lbSimpleFecha = new System.Windows.Forms.Label();
-            this.lbSimpleHora = new System.Windows.Forms.Label();
+            this.lbSimpledots = new System.Windows.Forms.Label();
+            this.lbSimpleEdad = new System.Windows.Forms.Label();
+            this.txtbEdad = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -173,55 +175,69 @@
             // 
             // comboDia
             // 
-            this.comboDia.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboDia.Enabled = false;
+            this.comboDia.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboDia.FormattingEnabled = true;
-            this.comboDia.Location = new System.Drawing.Point(843, 251);
+            this.comboDia.Location = new System.Drawing.Point(1106, 251);
             this.comboDia.Name = "comboDia";
-            this.comboDia.Size = new System.Drawing.Size(124, 39);
+            this.comboDia.Size = new System.Drawing.Size(124, 32);
             this.comboDia.TabIndex = 29;
+            this.comboDia.TabStop = false;
+            this.comboDia.Text = "Día";
+            this.comboDia.SelectedIndexChanged += new System.EventHandler(this.comboDia_SelectedIndexChanged);
             // 
             // comboMes
             // 
-            this.comboMes.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboMes.Enabled = false;
+            this.comboMes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboMes.FormattingEnabled = true;
             this.comboMes.Location = new System.Drawing.Point(973, 251);
             this.comboMes.Name = "comboMes";
-            this.comboMes.Size = new System.Drawing.Size(124, 39);
+            this.comboMes.Size = new System.Drawing.Size(124, 32);
             this.comboMes.TabIndex = 30;
+            this.comboMes.Text = "Mes";
+            this.comboMes.SelectedIndexChanged += new System.EventHandler(this.comboMes_SelectedIndexChanged);
             // 
             // comboAño
             // 
-            this.comboAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboAño.FormattingEnabled = true;
-            this.comboAño.Location = new System.Drawing.Point(1106, 251);
+            this.comboAño.Location = new System.Drawing.Point(843, 251);
             this.comboAño.Name = "comboAño";
-            this.comboAño.Size = new System.Drawing.Size(124, 39);
+            this.comboAño.Size = new System.Drawing.Size(124, 32);
             this.comboAño.TabIndex = 31;
+            this.comboAño.Text = "Año";
+            this.comboAño.SelectedIndexChanged += new System.EventHandler(this.comboAño_SelectedIndexChanged);
             // 
             // comboHora
             // 
+            this.comboHora.Enabled = false;
             this.comboHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboHora.FormattingEnabled = true;
-            this.comboHora.Location = new System.Drawing.Point(886, 331);
+            this.comboHora.Location = new System.Drawing.Point(942, 309);
             this.comboHora.Name = "comboHora";
-            this.comboHora.Size = new System.Drawing.Size(124, 39);
+            this.comboHora.Size = new System.Drawing.Size(89, 39);
             this.comboHora.TabIndex = 32;
+            this.comboHora.Text = "Hora";
+            this.comboHora.SelectedIndexChanged += new System.EventHandler(this.comboHora_SelectedIndexChanged);
             // 
             // comboMin
             // 
+            this.comboMin.Enabled = false;
             this.comboMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboMin.FormattingEnabled = true;
-            this.comboMin.Location = new System.Drawing.Point(1055, 331);
+            this.comboMin.Location = new System.Drawing.Point(1061, 309);
             this.comboMin.Name = "comboMin";
-            this.comboMin.Size = new System.Drawing.Size(124, 39);
+            this.comboMin.Size = new System.Drawing.Size(91, 39);
             this.comboMin.TabIndex = 33;
+            this.comboMin.Text = "Min";
             // 
             // txtbTel
             // 
-            this.txtbTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbTel.Location = new System.Drawing.Point(843, 415);
+            this.txtbTel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbTel.Location = new System.Drawing.Point(843, 451);
             this.txtbTel.Name = "txtbTel";
-            this.txtbTel.Size = new System.Drawing.Size(387, 45);
+            this.txtbTel.Size = new System.Drawing.Size(387, 38);
             this.txtbTel.TabIndex = 34;
             this.txtbTel.Text = "Tel.";
             this.txtbTel.WordWrap = false;
@@ -231,7 +247,7 @@
             // txtbmail
             // 
             this.txtbmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbmail.Location = new System.Drawing.Point(843, 496);
+            this.txtbmail.Location = new System.Drawing.Point(843, 520);
             this.txtbmail.Multiline = true;
             this.txtbmail.Name = "txtbmail";
             this.txtbmail.Size = new System.Drawing.Size(387, 44);
@@ -264,6 +280,7 @@
             this.lbSimpleCancel.AutoSize = true;
             this.lbSimpleCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbSimpleCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbSimpleCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbSimpleCancel.ForeColor = System.Drawing.Color.Maroon;
             this.lbSimpleCancel.Location = new System.Drawing.Point(1012, 653);
             this.lbSimpleCancel.Name = "lbSimpleCancel";
@@ -279,24 +296,46 @@
             this.lbSimpleFecha.BackColor = System.Drawing.Color.Transparent;
             this.lbSimpleFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.lbSimpleFecha.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbSimpleFecha.Location = new System.Drawing.Point(1004, 223);
+            this.lbSimpleFecha.Location = new System.Drawing.Point(971, 211);
             this.lbSimpleFecha.Name = "lbSimpleFecha";
-            this.lbSimpleFecha.Size = new System.Drawing.Size(67, 25);
+            this.lbSimpleFecha.Size = new System.Drawing.Size(126, 25);
             this.lbSimpleFecha.TabIndex = 38;
-            this.lbSimpleFecha.Text = "Fecha";
+            this.lbSimpleFecha.Text = "Fecha y hora";
             // 
-            // lbSimpleHora
+            // lbSimpledots
             // 
-            this.lbSimpleHora.AllowDrop = true;
-            this.lbSimpleHora.AutoSize = true;
-            this.lbSimpleHora.BackColor = System.Drawing.Color.Transparent;
-            this.lbSimpleHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.lbSimpleHora.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbSimpleHora.Location = new System.Drawing.Point(1010, 303);
-            this.lbSimpleHora.Name = "lbSimpleHora";
-            this.lbSimpleHora.Size = new System.Drawing.Size(54, 25);
-            this.lbSimpleHora.TabIndex = 39;
-            this.lbSimpleHora.Text = "Hora";
+            this.lbSimpledots.AllowDrop = true;
+            this.lbSimpledots.AutoSize = true;
+            this.lbSimpledots.BackColor = System.Drawing.Color.Transparent;
+            this.lbSimpledots.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.lbSimpledots.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbSimpledots.Location = new System.Drawing.Point(1037, 318);
+            this.lbSimpledots.Name = "lbSimpledots";
+            this.lbSimpledots.Size = new System.Drawing.Size(18, 25);
+            this.lbSimpledots.TabIndex = 40;
+            this.lbSimpledots.Text = ":";
+            // 
+            // lbSimpleEdad
+            // 
+            this.lbSimpleEdad.AllowDrop = true;
+            this.lbSimpleEdad.AutoSize = true;
+            this.lbSimpleEdad.BackColor = System.Drawing.Color.Transparent;
+            this.lbSimpleEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.lbSimpleEdad.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbSimpleEdad.Location = new System.Drawing.Point(837, 393);
+            this.lbSimpleEdad.Name = "lbSimpleEdad";
+            this.lbSimpleEdad.Size = new System.Drawing.Size(77, 31);
+            this.lbSimpleEdad.TabIndex = 42;
+            this.lbSimpleEdad.Text = "Edad";
+            // 
+            // txtbEdad
+            // 
+            this.txtbEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbEdad.Location = new System.Drawing.Point(920, 390);
+            this.txtbEdad.Multiline = true;
+            this.txtbEdad.Name = "txtbEdad";
+            this.txtbEdad.Size = new System.Drawing.Size(100, 38);
+            this.txtbEdad.TabIndex = 43;
             // 
             // FormCrearCita
             // 
@@ -305,7 +344,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1300, 700);
             this.ControlBox = false;
-            this.Controls.Add(this.lbSimpleHora);
+            this.Controls.Add(this.txtbEdad);
+            this.Controls.Add(this.lbSimpleEdad);
+            this.Controls.Add(this.lbSimpledots);
             this.Controls.Add(this.lbSimpleFecha);
             this.Controls.Add(this.lbSimpleCancel);
             this.Controls.Add(this.btnAgendarCita);
@@ -357,6 +398,8 @@
         private System.Windows.Forms.Button btnAgendarCita;
         private System.Windows.Forms.Label lbSimpleCancel;
         private System.Windows.Forms.Label lbSimpleFecha;
-        private System.Windows.Forms.Label lbSimpleHora;
+        private System.Windows.Forms.Label lbSimpledots;
+        private System.Windows.Forms.Label lbSimpleEdad;
+        private System.Windows.Forms.TextBox txtbEdad;
     }
 }

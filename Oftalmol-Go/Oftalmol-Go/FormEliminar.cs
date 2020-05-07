@@ -3,58 +3,49 @@
 using System;
 using System.Windows.Forms;
 
-//BIBLIOTECAS PARA FIRESHARP
+//BIBLIOTECAS DE BD
 using FireSharp.Config;
-using FireSharp.Response;
 using FireSharp.Interfaces;
+using FireSharp.Response;
 #endregion
 
 namespace Oftalmol_Go
 {
-    public partial class FormConsulta : Form
+    public partial class FormEliminar : Form
     {
+        #region INICIALIZACION DE CONEXIÓN A LA BASE DATOS
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "608vd6SDwtR7uGhPNhd9j7bbgL0E2mR0xbhyOwSk",
+            BasePath = "https://oftalmol-godb.firebaseio.com/"
+
+        };
+        IFirebaseClient client;
+        #endregion
+
         #region VARIABLES
         int mesSelect = 0;
         int dias = 0;
         int añoSelect = 0;
         #endregion
 
-        #region INICIALIZACION DE LA VENTANA
-        public FormConsulta()
+        #region INICIALIZACIÓN DE VENTANA
+
+        public FormEliminar()
         {
             InitializeComponent();
         }
         #endregion
 
-        #region INICIALIZACIÓN DE BASE DE PARÁMETROS DE BD
-        IFirebaseConfig config = new FirebaseConfig
+        #region BOTONES
+        private void btnCancelarEliminar_Click(object sender, EventArgs e)
         {
-            AuthSecret = "608vd6SDwtR7uGhPNhd9j7bbgL0E2mR0xbhyOwSk",
-            BasePath = "https://oftalmol-godb.firebaseio.com/"
-        };
-        IFirebaseClient client;
-        #endregion
-
-        #region CONSULTA
-        private async void btnConsultaListo_Click(object sender, EventArgs e)
-        {
-
-                var idcon = new Cita
-                {
-                    citaId = long.Parse(comboAño.Text + comboMes.Text + comboDia.Text + comboHora.Text + comboMin.Text)
-                };
-                client = new FireSharp.FirebaseClient(config);
-                FirebaseResponse recuperacion = await client.GetTaskAsync("PACIENTES/" + idcon.citaId);
-                Cita obj = recuperacion.ResultAs<Cita>();
-                MessageBox.Show("Paciente :" + obj.nombrePaciente + "\nFecha : " + obj.day + "/" + obj.mounth + "/" + obj.year + "\nHora" + obj.hora + ":" + obj.minuto, "BASE DE DATOS", MessageBoxButtons.OK);
-            
             this.Close();
         }
-        #endregion
+        #endregion  
 
         #region COMPORTAMIENTO DE COMBOBOX
-
-        private void FormConsulta_Load(object sender, EventArgs e)
+        private void FormEliminar_Load(object sender, EventArgs e)
         {
             for (int i = 2020; i < 2026; i++)
             {
@@ -74,15 +65,15 @@ namespace Oftalmol_Go
                 comboMin.Items.Add(0.ToString("00"));
                 comboMin.Items.Add(30);
             }
+
+
         }
 
-       
-
-        private void comboAño_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboAño_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             comboHora.Enabled = false;
             comboMin.Enabled = false;
-            comboDia.Text = "";
+            comboDia.Text = "Día";
             comboMes.Enabled = true;
             if (mesSelect == 2)
             {
@@ -90,13 +81,12 @@ namespace Oftalmol_Go
                 comboMes.SelectedIndex = 1;
             }
         }
-
-        private void comboMes_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboMes_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             comboDia.Items.Clear();
             comboHora.Enabled = false;
             comboMin.Enabled = false;
-            comboDia.Text = "";
+            comboDia.Text = "Día";
             mesSelect = int.Parse(comboMes.Text);
             añoSelect = int.Parse(comboAño.Text);
 
@@ -154,5 +144,22 @@ namespace Oftalmol_Go
         }
         #endregion
 
+        #region ELIMINAR
+        private async void btnEliminarCita_Click(object sender, EventArgs e)
+        {
+                    
+            this.Enabled = false;
+            client = new FireSharp.FirebaseClient(config);
+            var cita = new Cita
+            {
+                citaId = long.Parse(comboAño.Text + comboMes.Text + comboDia.Text + comboHora.Text + comboMin.Text)
+            };
+            FirebaseResponse response = await client.DeleteTaskAsync("PACIENTES/" +cita.citaId);
+            MessageBox.Show("Se ha borrado la cita exitosamente de "+cita.citaId, "Base de datos");
+            this.Close();
+        }
+
+        #endregion
+        
     }
 }

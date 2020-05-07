@@ -35,6 +35,7 @@
             this.btnModNombre = new System.Windows.Forms.Button();
             this.btnModTel = new System.Windows.Forms.Button();
             this.btnModCorreo = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnHome
@@ -68,7 +69,7 @@
             this.btnModFecha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnModFecha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModFecha.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnModFecha.Location = new System.Drawing.Point(71, 240);
+            this.btnModFecha.Location = new System.Drawing.Point(71, 188);
             this.btnModFecha.Name = "btnModFecha";
             this.btnModFecha.Size = new System.Drawing.Size(455, 89);
             this.btnModFecha.TabIndex = 5;
@@ -82,7 +83,7 @@
             this.lbSimpleQueModificar.BackColor = System.Drawing.Color.Transparent;
             this.lbSimpleQueModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
             this.lbSimpleQueModificar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbSimpleQueModificar.Location = new System.Drawing.Point(106, 183);
+            this.lbSimpleQueModificar.Location = new System.Drawing.Point(107, 124);
             this.lbSimpleQueModificar.Name = "lbSimpleQueModificar";
             this.lbSimpleQueModificar.Size = new System.Drawing.Size(407, 39);
             this.lbSimpleQueModificar.TabIndex = 9;
@@ -99,7 +100,7 @@
             this.btnModNombre.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnModNombre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModNombre.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnModNombre.Location = new System.Drawing.Point(71, 350);
+            this.btnModNombre.Location = new System.Drawing.Point(71, 283);
             this.btnModNombre.Name = "btnModNombre";
             this.btnModNombre.Size = new System.Drawing.Size(455, 89);
             this.btnModNombre.TabIndex = 10;
@@ -117,7 +118,7 @@
             this.btnModTel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnModTel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModTel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnModTel.Location = new System.Drawing.Point(71, 458);
+            this.btnModTel.Location = new System.Drawing.Point(71, 389);
             this.btnModTel.Name = "btnModTel";
             this.btnModTel.Size = new System.Drawing.Size(455, 89);
             this.btnModTel.TabIndex = 11;
@@ -135,12 +136,30 @@
             this.btnModCorreo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnModCorreo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModCorreo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnModCorreo.Location = new System.Drawing.Point(71, 568);
+            this.btnModCorreo.Location = new System.Drawing.Point(71, 494);
             this.btnModCorreo.Name = "btnModCorreo";
             this.btnModCorreo.Size = new System.Drawing.Size(455, 89);
             this.btnModCorreo.TabIndex = 12;
             this.btnModCorreo.UseVisualStyleBackColor = false;
             this.btnModCorreo.Click += new System.EventHandler(this.btnModCorreo_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.Color.Transparent;
+            this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
+            this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnEliminar.Location = new System.Drawing.Point(71, 599);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(455, 89);
+            this.btnEliminar.TabIndex = 13;
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // FormModificarCita
             // 
@@ -149,6 +168,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1300, 700);
             this.ControlBox = false;
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModCorreo);
             this.Controls.Add(this.btnModTel);
             this.Controls.Add(this.btnModNombre);
@@ -172,5 +192,6 @@
         private System.Windows.Forms.Button btnModNombre;
         private System.Windows.Forms.Button btnModTel;
         private System.Windows.Forms.Button btnModCorreo;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }

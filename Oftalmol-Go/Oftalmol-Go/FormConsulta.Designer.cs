@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormConsulta));
             this.btnConsultaListo = new System.Windows.Forms.Button();
+            this.comboAño = new System.Windows.Forms.ComboBox();
+            this.comboMes = new System.Windows.Forms.ComboBox();
             this.comboDia = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboHora = new System.Windows.Forms.ComboBox();
+            this.comboMin = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btnConsultaListo
@@ -58,50 +58,58 @@
             this.btnConsultaListo.UseVisualStyleBackColor = false;
             this.btnConsultaListo.Click += new System.EventHandler(this.btnConsultaListo_Click);
             // 
+            // comboAño
+            // 
+            this.comboAño.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboAño.FormattingEnabled = true;
+            this.comboAño.Location = new System.Drawing.Point(77, 105);
+            this.comboAño.Name = "comboAño";
+            this.comboAño.Size = new System.Drawing.Size(124, 33);
+            this.comboAño.TabIndex = 38;
+            this.comboAño.SelectedIndexChanged += new System.EventHandler(this.comboAño_SelectedIndexChanged);
+            // 
+            // comboMes
+            // 
+            this.comboMes.Enabled = false;
+            this.comboMes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboMes.FormattingEnabled = true;
+            this.comboMes.Location = new System.Drawing.Point(247, 105);
+            this.comboMes.Name = "comboMes";
+            this.comboMes.Size = new System.Drawing.Size(124, 33);
+            this.comboMes.TabIndex = 39;
+            this.comboMes.SelectedIndexChanged += new System.EventHandler(this.comboMes_SelectedIndexChanged);
+            // 
             // comboDia
             // 
-            this.comboDia.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboDia.Enabled = false;
+            this.comboDia.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboDia.FormattingEnabled = true;
-            this.comboDia.Location = new System.Drawing.Point(77, 105);
+            this.comboDia.Location = new System.Drawing.Point(421, 105);
             this.comboDia.Name = "comboDia";
-            this.comboDia.Size = new System.Drawing.Size(124, 39);
-            this.comboDia.TabIndex = 38;
+            this.comboDia.Size = new System.Drawing.Size(124, 33);
+            this.comboDia.TabIndex = 40;
+            this.comboDia.SelectedIndexChanged += new System.EventHandler(this.comboDia_SelectedIndexChanged);
             // 
-            // comboBox1
+            // comboHora
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(247, 105);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(124, 39);
-            this.comboBox1.TabIndex = 39;
+            this.comboHora.Enabled = false;
+            this.comboHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboHora.FormattingEnabled = true;
+            this.comboHora.Location = new System.Drawing.Point(147, 205);
+            this.comboHora.Name = "comboHora";
+            this.comboHora.Size = new System.Drawing.Size(124, 33);
+            this.comboHora.TabIndex = 41;
+            this.comboHora.SelectedIndexChanged += new System.EventHandler(this.comboHora_SelectedIndexChanged);
             // 
-            // comboBox2
+            // comboMin
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(421, 105);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(124, 39);
-            this.comboBox2.TabIndex = 40;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(147, 205);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(124, 39);
-            this.comboBox3.TabIndex = 41;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(342, 205);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(124, 39);
-            this.comboBox4.TabIndex = 42;
+            this.comboMin.Enabled = false;
+            this.comboMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboMin.FormattingEnabled = true;
+            this.comboMin.Location = new System.Drawing.Point(342, 205);
+            this.comboMin.Name = "comboMin";
+            this.comboMin.Size = new System.Drawing.Size(124, 33);
+            this.comboMin.TabIndex = 42;
             // 
             // FormConsulta
             // 
@@ -112,16 +120,17 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(613, 345);
             this.ControlBox = false;
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboMin);
+            this.Controls.Add(this.comboHora);
             this.Controls.Add(this.comboDia);
+            this.Controls.Add(this.comboMes);
+            this.Controls.Add(this.comboAño);
             this.Controls.Add(this.btnConsultaListo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormConsulta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CONSULTA RÁPIDA";
+            this.Load += new System.EventHandler(this.FormConsulta_Load);
             this.ResumeLayout(false);
 
         }
@@ -129,10 +138,10 @@
         #endregion
 
         private System.Windows.Forms.Button btnConsultaListo;
+        private System.Windows.Forms.ComboBox comboAño;
+        private System.Windows.Forms.ComboBox comboMes;
         private System.Windows.Forms.ComboBox comboDia;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboHora;
+        private System.Windows.Forms.ComboBox comboMin;
     }
 }

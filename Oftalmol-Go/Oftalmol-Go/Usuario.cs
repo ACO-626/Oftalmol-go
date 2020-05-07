@@ -1,28 +1,9 @@
-﻿using System;
-
-
-namespace Oftalmol_Go
+﻿namespace Oftalmol_Go
 {
-    class Usuario
+    internal class Usuario
     {
-        #region Atributos
-        private string user;
-        private string password;
-
-        #endregion
-
-        #region Métodos
-        private void identificarse()
-        {
-
-        }
-        private void crearCita()
-        {
-
-        }
-
-        #endregion
-
-
+        public string userID { get; set; }
+        public string user { get; set; }
+        public string password { get; set; }
     }
 }

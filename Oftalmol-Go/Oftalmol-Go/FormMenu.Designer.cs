@@ -28,34 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenu));
-            this.userNameLabel = new System.Windows.Forms.Label();
+            this.lbSimpleNombre = new System.Windows.Forms.Label();
             this.opcionesIcon = new System.Windows.Forms.Button();
             this.menuLabel = new System.Windows.Forms.Label();
             this.btnAgendarCita = new System.Windows.Forms.Button();
             this.btnReagendarCita = new System.Windows.Forms.Button();
             this.btnConsulta = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.ordinalPacienteLabel = new System.Windows.Forms.Label();
-            this.pacienteLabel = new System.Windows.Forms.Label();
-            this.fechaLabel = new System.Windows.Forms.Label();
-            this.horaLabel = new System.Windows.Forms.Label();
-            this.telLabel = new System.Windows.Forms.Label();
-            this.correoLabel = new System.Windows.Forms.Label();
-            this.edadLabel = new System.Windows.Forms.Label();
-            this.btnBefore = new System.Windows.Forms.Button();
-            this.realHoraLabel = new System.Windows.Forms.Label();
-            this.realFechaLabel = new System.Windows.Forms.Label();
+            this.lbSimpleEstado = new System.Windows.Forms.Label();
+            this.lbPaciente = new System.Windows.Forms.Label();
+            this.lbDia = new System.Windows.Forms.Label();
+            this.lbSimpleHora = new System.Windows.Forms.Label();
+            this.lbTel = new System.Windows.Forms.Label();
+            this.lbCorreo = new System.Windows.Forms.Label();
+            this.lbEdad = new System.Windows.Forms.Label();
             this.btnAfter = new System.Windows.Forms.Button();
+            this.lbRealHora = new System.Windows.Forms.Label();
+            this.lbFechaReal = new System.Windows.Forms.Label();
+            this.btnBefore = new System.Windows.Forms.Button();
+            this.lbAño = new System.Windows.Forms.Label();
+            this.lbMes = new System.Windows.Forms.Label();
+            this.lbSimpleSlash = new System.Windows.Forms.Label();
+            this.lbSimpleSlash2 = new System.Windows.Forms.Label();
+            this.lbHora = new System.Windows.Forms.Label();
+            this.lbSimpleDots = new System.Windows.Forms.Label();
+            this.lbMin = new System.Windows.Forms.Label();
+            this.TmHoraR = new System.Windows.Forms.Timer(this.components);
+            this.btnAgenda = new System.Windows.Forms.Button();
+            this.lbSimpleSig = new System.Windows.Forms.Label();
+            this.lbSimpleAnt = new System.Windows.Forms.Label();
+            this.btnActualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // userNameLabel
+            // lbSimpleNombre
             // 
-            this.userNameLabel.AllowDrop = true;
-            resources.ApplyResources(this.userNameLabel, "userNameLabel");
-            this.userNameLabel.BackColor = System.Drawing.Color.Transparent;
-            this.userNameLabel.Name = "userNameLabel";
+            this.lbSimpleNombre.AllowDrop = true;
+            resources.ApplyResources(this.lbSimpleNombre, "lbSimpleNombre");
+            this.lbSimpleNombre.BackColor = System.Drawing.Color.Transparent;
+            this.lbSimpleNombre.Name = "lbSimpleNombre";
             // 
             // opcionesIcon
             // 
@@ -119,80 +132,54 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
-            // ordinalPacienteLabel
+            // lbSimpleEstado
             // 
-            this.ordinalPacienteLabel.AllowDrop = true;
-            resources.ApplyResources(this.ordinalPacienteLabel, "ordinalPacienteLabel");
-            this.ordinalPacienteLabel.BackColor = System.Drawing.Color.Transparent;
-            this.ordinalPacienteLabel.Name = "ordinalPacienteLabel";
+            this.lbSimpleEstado.AllowDrop = true;
+            resources.ApplyResources(this.lbSimpleEstado, "lbSimpleEstado");
+            this.lbSimpleEstado.BackColor = System.Drawing.Color.Transparent;
+            this.lbSimpleEstado.Name = "lbSimpleEstado";
             // 
-            // pacienteLabel
+            // lbPaciente
             // 
-            this.pacienteLabel.AllowDrop = true;
-            resources.ApplyResources(this.pacienteLabel, "pacienteLabel");
-            this.pacienteLabel.BackColor = System.Drawing.Color.Transparent;
-            this.pacienteLabel.Name = "pacienteLabel";
+            this.lbPaciente.AllowDrop = true;
+            resources.ApplyResources(this.lbPaciente, "lbPaciente");
+            this.lbPaciente.BackColor = System.Drawing.Color.Transparent;
+            this.lbPaciente.Name = "lbPaciente";
             // 
-            // fechaLabel
+            // lbDia
             // 
-            this.fechaLabel.AllowDrop = true;
-            resources.ApplyResources(this.fechaLabel, "fechaLabel");
-            this.fechaLabel.BackColor = System.Drawing.Color.Transparent;
-            this.fechaLabel.Name = "fechaLabel";
+            this.lbDia.AllowDrop = true;
+            resources.ApplyResources(this.lbDia, "lbDia");
+            this.lbDia.BackColor = System.Drawing.Color.Transparent;
+            this.lbDia.Name = "lbDia";
             // 
-            // horaLabel
+            // lbSimpleHora
             // 
-            this.horaLabel.AllowDrop = true;
-            resources.ApplyResources(this.horaLabel, "horaLabel");
-            this.horaLabel.BackColor = System.Drawing.Color.Transparent;
-            this.horaLabel.Name = "horaLabel";
+            this.lbSimpleHora.AllowDrop = true;
+            resources.ApplyResources(this.lbSimpleHora, "lbSimpleHora");
+            this.lbSimpleHora.BackColor = System.Drawing.Color.Transparent;
+            this.lbSimpleHora.Name = "lbSimpleHora";
             // 
-            // telLabel
+            // lbTel
             // 
-            this.telLabel.AllowDrop = true;
-            resources.ApplyResources(this.telLabel, "telLabel");
-            this.telLabel.BackColor = System.Drawing.Color.Transparent;
-            this.telLabel.Name = "telLabel";
+            this.lbTel.AllowDrop = true;
+            resources.ApplyResources(this.lbTel, "lbTel");
+            this.lbTel.BackColor = System.Drawing.Color.Transparent;
+            this.lbTel.Name = "lbTel";
             // 
-            // correoLabel
+            // lbCorreo
             // 
-            this.correoLabel.AllowDrop = true;
-            resources.ApplyResources(this.correoLabel, "correoLabel");
-            this.correoLabel.BackColor = System.Drawing.Color.Transparent;
-            this.correoLabel.Name = "correoLabel";
+            this.lbCorreo.AllowDrop = true;
+            resources.ApplyResources(this.lbCorreo, "lbCorreo");
+            this.lbCorreo.BackColor = System.Drawing.Color.Transparent;
+            this.lbCorreo.Name = "lbCorreo";
             // 
-            // edadLabel
+            // lbEdad
             // 
-            this.edadLabel.AllowDrop = true;
-            resources.ApplyResources(this.edadLabel, "edadLabel");
-            this.edadLabel.BackColor = System.Drawing.Color.White;
-            this.edadLabel.Name = "edadLabel";
-            // 
-            // btnBefore
-            // 
-            this.btnBefore.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.btnBefore, "btnBefore");
-            this.btnBefore.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBefore.FlatAppearance.BorderSize = 0;
-            this.btnBefore.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnBefore.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnBefore.ForeColor = System.Drawing.Color.Coral;
-            this.btnBefore.Name = "btnBefore";
-            this.btnBefore.UseVisualStyleBackColor = false;
-            // 
-            // realHoraLabel
-            // 
-            this.realHoraLabel.AllowDrop = true;
-            resources.ApplyResources(this.realHoraLabel, "realHoraLabel");
-            this.realHoraLabel.BackColor = System.Drawing.Color.Transparent;
-            this.realHoraLabel.Name = "realHoraLabel";
-            // 
-            // realFechaLabel
-            // 
-            this.realFechaLabel.AllowDrop = true;
-            resources.ApplyResources(this.realFechaLabel, "realFechaLabel");
-            this.realFechaLabel.BackColor = System.Drawing.Color.Transparent;
-            this.realFechaLabel.Name = "realFechaLabel";
+            this.lbEdad.AllowDrop = true;
+            resources.ApplyResources(this.lbEdad, "lbEdad");
+            this.lbEdad.BackColor = System.Drawing.Color.White;
+            this.lbEdad.Name = "lbEdad";
             // 
             // btnAfter
             // 
@@ -205,33 +192,166 @@
             this.btnAfter.ForeColor = System.Drawing.Color.Coral;
             this.btnAfter.Name = "btnAfter";
             this.btnAfter.UseVisualStyleBackColor = false;
+            this.btnAfter.Click += new System.EventHandler(this.btnAfter_Click);
+            // 
+            // lbRealHora
+            // 
+            this.lbRealHora.AllowDrop = true;
+            resources.ApplyResources(this.lbRealHora, "lbRealHora");
+            this.lbRealHora.BackColor = System.Drawing.Color.Transparent;
+            this.lbRealHora.Name = "lbRealHora";
+            // 
+            // lbFechaReal
+            // 
+            this.lbFechaReal.AllowDrop = true;
+            resources.ApplyResources(this.lbFechaReal, "lbFechaReal");
+            this.lbFechaReal.BackColor = System.Drawing.Color.Transparent;
+            this.lbFechaReal.Name = "lbFechaReal";
+            // 
+            // btnBefore
+            // 
+            this.btnBefore.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnBefore, "btnBefore");
+            this.btnBefore.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBefore.FlatAppearance.BorderSize = 0;
+            this.btnBefore.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnBefore.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnBefore.ForeColor = System.Drawing.Color.Coral;
+            this.btnBefore.Name = "btnBefore";
+            this.btnBefore.UseVisualStyleBackColor = false;
+            this.btnBefore.Click += new System.EventHandler(this.btnBefore_Click);
+            // 
+            // lbAño
+            // 
+            this.lbAño.AllowDrop = true;
+            resources.ApplyResources(this.lbAño, "lbAño");
+            this.lbAño.BackColor = System.Drawing.Color.Transparent;
+            this.lbAño.Name = "lbAño";
+            // 
+            // lbMes
+            // 
+            this.lbMes.AllowDrop = true;
+            resources.ApplyResources(this.lbMes, "lbMes");
+            this.lbMes.BackColor = System.Drawing.Color.Transparent;
+            this.lbMes.Name = "lbMes";
+            // 
+            // lbSimpleSlash
+            // 
+            this.lbSimpleSlash.AllowDrop = true;
+            resources.ApplyResources(this.lbSimpleSlash, "lbSimpleSlash");
+            this.lbSimpleSlash.BackColor = System.Drawing.Color.Transparent;
+            this.lbSimpleSlash.Name = "lbSimpleSlash";
+            // 
+            // lbSimpleSlash2
+            // 
+            this.lbSimpleSlash2.AllowDrop = true;
+            resources.ApplyResources(this.lbSimpleSlash2, "lbSimpleSlash2");
+            this.lbSimpleSlash2.BackColor = System.Drawing.Color.Transparent;
+            this.lbSimpleSlash2.Name = "lbSimpleSlash2";
+            // 
+            // lbHora
+            // 
+            this.lbHora.AllowDrop = true;
+            resources.ApplyResources(this.lbHora, "lbHora");
+            this.lbHora.BackColor = System.Drawing.Color.Transparent;
+            this.lbHora.Name = "lbHora";
+            // 
+            // lbSimpleDots
+            // 
+            this.lbSimpleDots.AllowDrop = true;
+            resources.ApplyResources(this.lbSimpleDots, "lbSimpleDots");
+            this.lbSimpleDots.BackColor = System.Drawing.Color.Transparent;
+            this.lbSimpleDots.Name = "lbSimpleDots";
+            // 
+            // lbMin
+            // 
+            this.lbMin.AllowDrop = true;
+            resources.ApplyResources(this.lbMin, "lbMin");
+            this.lbMin.BackColor = System.Drawing.Color.Transparent;
+            this.lbMin.Name = "lbMin";
+            // 
+            // TmHoraR
+            // 
+            this.TmHoraR.Enabled = true;
+            this.TmHoraR.Tick += new System.EventHandler(this.TmHoraR_Tick);
+            // 
+            // btnAgenda
+            // 
+            this.btnAgenda.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnAgenda, "btnAgenda");
+            this.btnAgenda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgenda.FlatAppearance.BorderSize = 0;
+            this.btnAgenda.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnAgenda.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnAgenda.Name = "btnAgenda";
+            this.btnAgenda.UseVisualStyleBackColor = false;
+            this.btnAgenda.Click += new System.EventHandler(this.btnAgenda_Click);
+            // 
+            // lbSimpleSig
+            // 
+            this.lbSimpleSig.AllowDrop = true;
+            resources.ApplyResources(this.lbSimpleSig, "lbSimpleSig");
+            this.lbSimpleSig.BackColor = System.Drawing.Color.Transparent;
+            this.lbSimpleSig.Name = "lbSimpleSig";
+            // 
+            // lbSimpleAnt
+            // 
+            this.lbSimpleAnt.AllowDrop = true;
+            resources.ApplyResources(this.lbSimpleAnt, "lbSimpleAnt");
+            this.lbSimpleAnt.BackColor = System.Drawing.Color.Transparent;
+            this.lbSimpleAnt.Name = "lbSimpleAnt";
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnActualizar, "btnActualizar");
+            this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnActualizar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnActualizar.FlatAppearance.BorderSize = 0;
+            this.btnActualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnActualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // FormMenu
             // 
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.Controls.Add(this.btnAfter);
-            this.Controls.Add(this.realFechaLabel);
-            this.Controls.Add(this.realHoraLabel);
+            this.Controls.Add(this.btnActualizar);
+            this.Controls.Add(this.lbSimpleAnt);
+            this.Controls.Add(this.lbSimpleSig);
+            this.Controls.Add(this.btnAgenda);
+            this.Controls.Add(this.lbMin);
+            this.Controls.Add(this.lbSimpleDots);
+            this.Controls.Add(this.lbHora);
+            this.Controls.Add(this.lbSimpleSlash2);
+            this.Controls.Add(this.lbSimpleSlash);
+            this.Controls.Add(this.lbMes);
+            this.Controls.Add(this.lbAño);
             this.Controls.Add(this.btnBefore);
-            this.Controls.Add(this.edadLabel);
-            this.Controls.Add(this.correoLabel);
-            this.Controls.Add(this.telLabel);
-            this.Controls.Add(this.horaLabel);
-            this.Controls.Add(this.fechaLabel);
-            this.Controls.Add(this.pacienteLabel);
-            this.Controls.Add(this.ordinalPacienteLabel);
+            this.Controls.Add(this.lbFechaReal);
+            this.Controls.Add(this.lbRealHora);
+            this.Controls.Add(this.btnAfter);
+            this.Controls.Add(this.lbEdad);
+            this.Controls.Add(this.lbCorreo);
+            this.Controls.Add(this.lbTel);
+            this.Controls.Add(this.lbSimpleHora);
+            this.Controls.Add(this.lbDia);
+            this.Controls.Add(this.lbPaciente);
+            this.Controls.Add(this.lbSimpleEstado);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnConsulta);
             this.Controls.Add(this.btnReagendarCita);
             this.Controls.Add(this.btnAgendarCita);
             this.Controls.Add(this.menuLabel);
             this.Controls.Add(this.opcionesIcon);
-            this.Controls.Add(this.userNameLabel);
+            this.Controls.Add(this.lbSimpleNombre);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
-            this.Name = "FormMenu";           
+            this.Name = "FormMenu";
+            this.Load += new System.EventHandler(this.FormMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -240,25 +360,37 @@
 
         #endregion
 
-        private System.Windows.Forms.Label userNameLabel;
+        private System.Windows.Forms.Label lbSimpleNombre;
         private System.Windows.Forms.Button opcionesIcon;
         private System.Windows.Forms.Label menuLabel;
         private System.Windows.Forms.Button btnAgendarCita;
         private System.Windows.Forms.Button btnReagendarCita;
         private System.Windows.Forms.Button btnConsulta;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label ordinalPacienteLabel;
-        private System.Windows.Forms.Label pacienteLabel;
-        private System.Windows.Forms.Label fechaLabel;
-        private System.Windows.Forms.Label horaLabel;
-        private System.Windows.Forms.Label telLabel;
-        private System.Windows.Forms.Label correoLabel;
-        private System.Windows.Forms.Label edadLabel;
-        private System.Windows.Forms.Button btnBefore;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label realHoraLabel;
-        private System.Windows.Forms.Label realFechaLabel;
+        private System.Windows.Forms.Label lbSimpleEstado;
+        private System.Windows.Forms.Label lbPaciente;
+        private System.Windows.Forms.Label lbDia;
+        private System.Windows.Forms.Label lbSimpleHora;
+        private System.Windows.Forms.Label lbTel;
+        private System.Windows.Forms.Label lbCorreo;
+        private System.Windows.Forms.Label lbEdad;
         private System.Windows.Forms.Button btnAfter;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbRealHora;
+        private System.Windows.Forms.Label lbFechaReal;
+        private System.Windows.Forms.Button btnBefore;
+        private System.Windows.Forms.Label lbAño;
+        private System.Windows.Forms.Label lbMes;
+        private System.Windows.Forms.Label lbSimpleSlash;
+        private System.Windows.Forms.Label lbSimpleSlash2;
+        private System.Windows.Forms.Label lbHora;
+        private System.Windows.Forms.Label lbSimpleDots;
+        private System.Windows.Forms.Label lbMin;
+        private System.Windows.Forms.Timer TmHoraR;
+        private System.Windows.Forms.Button btnAgenda;
+        private System.Windows.Forms.Label lbSimpleSig;
+        private System.Windows.Forms.Label lbSimpleAnt;
+        private System.Windows.Forms.Button btnActualizar;
     }
 }
 

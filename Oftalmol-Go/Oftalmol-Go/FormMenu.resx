@@ -118,36 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="userNameLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbSimpleNombre.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="userNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbSimpleNombre.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15pt</value>
   </data>
-  <data name="userNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lbSimpleNombre.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 45</value>
   </data>
-  <data name="userNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 25</value>
+  <data name="lbSimpleNombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 25</value>
   </data>
-  <data name="userNameLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbSimpleNombre.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="userNameLabel.Text" xml:space="preserve">
-    <value>Beatríz Mendoza Rocha</value>
+  <data name="lbSimpleNombre.Text" xml:space="preserve">
+    <value>Nombre de usuario</value>
   </data>
-  <data name="&gt;&gt;userNameLabel.Name" xml:space="preserve">
-    <value>userNameLabel</value>
+  <data name="&gt;&gt;lbSimpleNombre.Name" xml:space="preserve">
+    <value>lbSimpleNombre</value>
   </data>
-  <data name="&gt;&gt;userNameLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbSimpleNombre.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;userNameLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbSimpleNombre.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;userNameLabel.ZOrder" xml:space="preserve">
-    <value>17</value>
+  <data name="&gt;&gt;lbSimpleNombre.ZOrder" xml:space="preserve">
+    <value>28</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="opcionesIcon.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
@@ -318,22 +318,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;opcionesIcon.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>27</value>
   </data>
   <data name="menuLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="menuLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt</value>
+    <value>Microsoft Sans Serif, 30pt</value>
   </data>
   <data name="menuLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="menuLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>957, 190</value>
+    <value>1074, 115</value>
   </data>
   <data name="menuLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 25</value>
+    <value>119, 46</value>
   </data>
   <data name="menuLabel.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -351,7 +351,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuLabel.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>26</value>
   </data>
   <data name="btnAgendarCita.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -423,7 +423,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnAgendarCita.Location" type="System.Drawing.Point, System.Drawing">
-    <value>781, 234</value>
+    <value>781, 196</value>
   </data>
   <data name="btnAgendarCita.Size" type="System.Drawing.Size, System.Drawing">
     <value>412, 78</value>
@@ -441,7 +441,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnAgendarCita.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>25</value>
   </data>
   <data name="btnReagendarCita.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -501,7 +501,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnReagendarCita.Location" type="System.Drawing.Point, System.Drawing">
-    <value>781, 354</value>
+    <value>781, 317</value>
   </data>
   <data name="btnReagendarCita.Size" type="System.Drawing.Size, System.Drawing">
     <value>412, 80</value>
@@ -519,7 +519,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnReagendarCita.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>24</value>
   </data>
   <data name="btnConsulta.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -585,7 +585,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnConsulta.Location" type="System.Drawing.Point, System.Drawing">
-    <value>781, 476</value>
+    <value>781, 437</value>
   </data>
   <data name="btnConsulta.Size" type="System.Drawing.Size, System.Drawing">
     <value>412, 80</value>
@@ -603,7 +603,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnConsulta.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>23</value>
   </data>
   <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -710,240 +710,243 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>22</value>
   </data>
-  <data name="ordinalPacienteLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbSimpleEstado.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="ordinalPacienteLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbSimpleEstado.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 22pt, style=Bold</value>
   </data>
-  <data name="ordinalPacienteLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lbSimpleEstado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="ordinalPacienteLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 265</value>
+  <data name="lbSimpleEstado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 263</value>
   </data>
-  <data name="ordinalPacienteLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 36</value>
+  <data name="lbSimpleEstado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>485, 36</value>
   </data>
-  <data name="ordinalPacienteLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbSimpleEstado.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="ordinalPacienteLabel.Text" xml:space="preserve">
-    <value>Próximo Paciente</value>
+  <data name="lbSimpleEstado.Text" xml:space="preserve">
+    <value>TODAVÍA NO HAY REGISTROS </value>
   </data>
-  <data name="&gt;&gt;ordinalPacienteLabel.Name" xml:space="preserve">
-    <value>ordinalPacienteLabel</value>
+  <data name="lbSimpleEstado.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;ordinalPacienteLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbSimpleEstado.Name" xml:space="preserve">
+    <value>lbSimpleEstado</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleEstado.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ordinalPacienteLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbSimpleEstado.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;ordinalPacienteLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;lbSimpleEstado.ZOrder" xml:space="preserve">
+    <value>21</value>
   </data>
-  <data name="pacienteLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbPaciente.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="pacienteLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbPaciente.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15pt</value>
   </data>
-  <data name="pacienteLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lbPaciente.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pacienteLabel.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lbPaciente.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 317</value>
   </data>
-  <data name="pacienteLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 25</value>
+  <data name="lbPaciente.Size" type="System.Drawing.Size, System.Drawing">
+    <value>337, 25</value>
   </data>
-  <data name="pacienteLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbPaciente.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="pacienteLabel.Text" xml:space="preserve">
-    <value>Filemeno Henández Nájera</value>
+  <data name="lbPaciente.Text" xml:space="preserve">
+    <value>Hola, todo listo para su primer registro</value>
   </data>
-  <data name="&gt;&gt;pacienteLabel.Name" xml:space="preserve">
-    <value>pacienteLabel</value>
+  <data name="&gt;&gt;lbPaciente.Name" xml:space="preserve">
+    <value>lbPaciente</value>
   </data>
-  <data name="&gt;&gt;pacienteLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbPaciente.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pacienteLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbPaciente.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pacienteLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;lbPaciente.ZOrder" xml:space="preserve">
+    <value>20</value>
   </data>
-  <data name="fechaLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbDia.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="fechaLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbDia.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20pt, style=Bold</value>
   </data>
-  <data name="fechaLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lbDia.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="fechaLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 354</value>
+  <data name="lbDia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 351</value>
   </data>
-  <data name="fechaLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 31</value>
+  <data name="lbDia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 31</value>
   </data>
-  <data name="fechaLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbDia.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="fechaLabel.Text" xml:space="preserve">
-    <value>29 / 09 / 20</value>
+  <data name="lbDia.Text" xml:space="preserve">
+    <value>--</value>
   </data>
-  <data name="&gt;&gt;fechaLabel.Name" xml:space="preserve">
-    <value>fechaLabel</value>
+  <data name="&gt;&gt;lbDia.Name" xml:space="preserve">
+    <value>lbDia</value>
   </data>
-  <data name="&gt;&gt;fechaLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbDia.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;fechaLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbDia.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;fechaLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;lbDia.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
-  <data name="horaLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbSimpleHora.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="horaLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 22pt, style=Bold</value>
+  <data name="lbSimpleHora.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 25pt, style=Bold</value>
   </data>
-  <data name="horaLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lbSimpleHora.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="horaLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 382</value>
+  <data name="lbSimpleHora.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 382</value>
   </data>
-  <data name="horaLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 36</value>
+  <data name="lbSimpleHora.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 39</value>
   </data>
-  <data name="horaLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbSimpleHora.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="horaLabel.Text" xml:space="preserve">
-    <value>Hora: 16:00</value>
+  <data name="lbSimpleHora.Text" xml:space="preserve">
+    <value>Hora: </value>
   </data>
-  <data name="&gt;&gt;horaLabel.Name" xml:space="preserve">
-    <value>horaLabel</value>
+  <data name="&gt;&gt;lbSimpleHora.Name" xml:space="preserve">
+    <value>lbSimpleHora</value>
   </data>
-  <data name="&gt;&gt;horaLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbSimpleHora.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;horaLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbSimpleHora.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;horaLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;lbSimpleHora.ZOrder" xml:space="preserve">
+    <value>18</value>
   </data>
-  <data name="telLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbTel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="telLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbTel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15pt</value>
   </data>
-  <data name="telLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lbTel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="telLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 427</value>
+  <data name="lbTel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 437</value>
   </data>
-  <data name="telLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 25</value>
+  <data name="lbTel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 25</value>
   </data>
-  <data name="telLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbTel.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="telLabel.Text" xml:space="preserve">
-    <value>tel. 5555667576</value>
+  <data name="lbTel.Text" xml:space="preserve">
+    <value>tel. ------------</value>
   </data>
-  <data name="&gt;&gt;telLabel.Name" xml:space="preserve">
-    <value>telLabel</value>
+  <data name="&gt;&gt;lbTel.Name" xml:space="preserve">
+    <value>lbTel</value>
   </data>
-  <data name="&gt;&gt;telLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbTel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;telLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbTel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;telLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;lbTel.ZOrder" xml:space="preserve">
+    <value>17</value>
   </data>
-  <data name="correoLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbCorreo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="correoLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbCorreo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15pt</value>
   </data>
-  <data name="correoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lbCorreo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="correoLabel.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lbCorreo.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 462</value>
   </data>
-  <data name="correoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 25</value>
+  <data name="lbCorreo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 25</value>
   </data>
-  <data name="correoLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbCorreo.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="correoLabel.Text" xml:space="preserve">
-    <value>elconsoleGriteline@gmail.com</value>
+  <data name="lbCorreo.Text" xml:space="preserve">
+    <value>mail: ----------</value>
   </data>
-  <data name="&gt;&gt;correoLabel.Name" xml:space="preserve">
-    <value>correoLabel</value>
+  <data name="&gt;&gt;lbCorreo.Name" xml:space="preserve">
+    <value>lbCorreo</value>
   </data>
-  <data name="&gt;&gt;correoLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbCorreo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;correoLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbCorreo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;correoLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;lbCorreo.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
-  <data name="edadLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbEdad.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="edadLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbEdad.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15pt</value>
   </data>
-  <data name="edadLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lbEdad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="edadLabel.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lbEdad.Location" type="System.Drawing.Point, System.Drawing">
     <value>535, 462</value>
   </data>
-  <data name="edadLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 25</value>
+  <data name="lbEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 25</value>
   </data>
-  <data name="edadLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbEdad.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="edadLabel.Text" xml:space="preserve">
-    <value>22 años</value>
+  <data name="lbEdad.Text" xml:space="preserve">
+    <value>edad:--</value>
   </data>
-  <data name="&gt;&gt;edadLabel.Name" xml:space="preserve">
-    <value>edadLabel</value>
+  <data name="&gt;&gt;lbEdad.Name" xml:space="preserve">
+    <value>lbEdad</value>
   </data>
-  <data name="&gt;&gt;edadLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbEdad.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;edadLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbEdad.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;edadLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;lbEdad.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
-  <data name="btnBefore.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnAfter.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADMAAABmCAYAAABm4qluAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EgAACxIB0t1+/AAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAYYSURB
@@ -976,100 +979,100 @@
         Mp3eDPMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnBefore.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="btnAfter.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="btnBefore.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnAfter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnBefore.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnAfter.Location" type="System.Drawing.Point, System.Drawing">
     <value>45, 341</value>
   </data>
-  <data name="btnBefore.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnAfter.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 107</value>
   </data>
-  <data name="btnBefore.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnAfter.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="&gt;&gt;btnBefore.Name" xml:space="preserve">
-    <value>btnBefore</value>
+  <data name="&gt;&gt;btnAfter.Name" xml:space="preserve">
+    <value>btnAfter</value>
   </data>
-  <data name="&gt;&gt;btnBefore.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnAfter.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnBefore.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnAfter.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnBefore.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;btnAfter.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
-  <data name="realHoraLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbRealHora.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="realHoraLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbRealHora.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 45pt, style=Bold</value>
   </data>
-  <data name="realHoraLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lbRealHora.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="realHoraLabel.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lbRealHora.Location" type="System.Drawing.Point, System.Drawing">
     <value>98, 115</value>
   </data>
-  <data name="realHoraLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 69</value>
+  <data name="lbRealHora.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 69</value>
   </data>
-  <data name="realHoraLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbRealHora.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="realHoraLabel.Text" xml:space="preserve">
-    <value>15:30</value>
+  <data name="lbRealHora.Text" xml:space="preserve">
+    <value>--:--</value>
   </data>
-  <data name="&gt;&gt;realHoraLabel.Name" xml:space="preserve">
-    <value>realHoraLabel</value>
+  <data name="&gt;&gt;lbRealHora.Name" xml:space="preserve">
+    <value>lbRealHora</value>
   </data>
-  <data name="&gt;&gt;realHoraLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbRealHora.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;realHoraLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbRealHora.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;realHoraLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;lbRealHora.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
-  <data name="realFechaLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lbFechaReal.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="realFechaLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbFechaReal.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 18pt, style=Bold</value>
   </data>
-  <data name="realFechaLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="lbFechaReal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="realFechaLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 184</value>
+  <data name="lbFechaReal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 184</value>
   </data>
-  <data name="realFechaLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 29</value>
+  <data name="lbFechaReal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
   </data>
-  <data name="realFechaLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbFechaReal.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="realFechaLabel.Text" xml:space="preserve">
-    <value>29 / 09 / 20</value>
+  <data name="lbFechaReal.Text" xml:space="preserve">
+    <value>-- / -- / --</value>
   </data>
-  <data name="&gt;&gt;realFechaLabel.Name" xml:space="preserve">
-    <value>realFechaLabel</value>
+  <data name="&gt;&gt;lbFechaReal.Name" xml:space="preserve">
+    <value>lbFechaReal</value>
   </data>
-  <data name="&gt;&gt;realFechaLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbFechaReal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;realFechaLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbFechaReal.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;realFechaLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;lbFechaReal.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
-  <data name="btnAfter.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnBefore.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADMAAABmCAYAAABm4qluAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EgAACxIB0t1+/AAAAB90RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgOLVo0ngAAAfiSURB
@@ -1109,34 +1112,549 @@
         b372fa2YW3zud6Z4Ib+crUuzaRJyGcjuHfRN3Z0fhg2jVwDOrfzJZ8+p+AAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnAfter.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="btnBefore.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="btnAfter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnBefore.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnAfter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btnBefore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnAfter.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnBefore.Location" type="System.Drawing.Point, System.Drawing">
     <value>666, 341</value>
   </data>
-  <data name="btnAfter.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnBefore.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 107</value>
   </data>
-  <data name="btnAfter.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnBefore.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  <data name="&gt;&gt;btnAfter.Name" xml:space="preserve">
-    <value>btnAfter</value>
+  <data name="&gt;&gt;btnBefore.Name" xml:space="preserve">
+    <value>btnBefore</value>
   </data>
-  <data name="&gt;&gt;btnAfter.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnBefore.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnAfter.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnBefore.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnAfter.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnBefore.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbAño.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbAño.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt, style=Bold</value>
+  </data>
+  <data name="lbAño.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbAño.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 351</value>
+  </data>
+  <data name="lbAño.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 31</value>
+  </data>
+  <data name="lbAño.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lbAño.Text" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="&gt;&gt;lbAño.Name" xml:space="preserve">
+    <value>lbAño</value>
+  </data>
+  <data name="&gt;&gt;lbAño.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbAño.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbAño.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbMes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbMes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt, style=Bold</value>
+  </data>
+  <data name="lbMes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbMes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 351</value>
+  </data>
+  <data name="lbMes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 31</value>
+  </data>
+  <data name="lbMes.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lbMes.Text" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="&gt;&gt;lbMes.Name" xml:space="preserve">
+    <value>lbMes</value>
+  </data>
+  <data name="&gt;&gt;lbMes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbMes.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbSimpleSlash.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbSimpleSlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt, style=Bold</value>
+  </data>
+  <data name="lbSimpleSlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbSimpleSlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 351</value>
+  </data>
+  <data name="lbSimpleSlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 31</value>
+  </data>
+  <data name="lbSimpleSlash.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lbSimpleSlash.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSlash.Name" xml:space="preserve">
+    <value>lbSimpleSlash</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSlash.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSlash.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbSimpleSlash2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbSimpleSlash2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt, style=Bold</value>
+  </data>
+  <data name="lbSimpleSlash2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbSimpleSlash2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 351</value>
+  </data>
+  <data name="lbSimpleSlash2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 31</value>
+  </data>
+  <data name="lbSimpleSlash2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lbSimpleSlash2.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSlash2.Name" xml:space="preserve">
+    <value>lbSimpleSlash2</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSlash2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSlash2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSlash2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbHora.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbHora.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22pt, style=Bold</value>
+  </data>
+  <data name="lbHora.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbHora.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 386</value>
+  </data>
+  <data name="lbHora.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 36</value>
+  </data>
+  <data name="lbHora.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lbHora.Text" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="&gt;&gt;lbHora.Name" xml:space="preserve">
+    <value>lbHora</value>
+  </data>
+  <data name="&gt;&gt;lbHora.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbHora.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbHora.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbSimpleDots.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbSimpleDots.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22pt, style=Bold</value>
+  </data>
+  <data name="lbSimpleDots.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbSimpleDots.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 386</value>
+  </data>
+  <data name="lbSimpleDots.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 36</value>
+  </data>
+  <data name="lbSimpleDots.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lbSimpleDots.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleDots.Name" xml:space="preserve">
+    <value>lbSimpleDots</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleDots.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleDots.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleDots.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22pt, style=Bold</value>
+  </data>
+  <data name="lbMin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 385</value>
+  </data>
+  <data name="lbMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 36</value>
+  </data>
+  <data name="lbMin.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lbMin.Text" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="&gt;&gt;lbMin.Name" xml:space="preserve">
+    <value>lbMin</value>
+  </data>
+  <data name="&gt;&gt;lbMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbMin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="TmHoraR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnAgenda.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        CgNKkviAvmuCHNA6H9AB/kj/2Q==
+</value>
+  </data>
+  <data name="btnAgenda.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnAgenda.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgenda.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgenda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>781, 556</value>
+  </data>
+  <data name="btnAgenda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>412, 80</value>
+  </data>
+  <data name="btnAgenda.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;btnAgenda.Name" xml:space="preserve">
+    <value>btnAgenda</value>
+  </data>
+  <data name="&gt;&gt;btnAgenda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAgenda.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAgenda.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbSimpleSig.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbSimpleSig.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="lbSimpleSig.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbSimpleSig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 380</value>
+  </data>
+  <data name="lbSimpleSig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="lbSimpleSig.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="lbSimpleSig.Text" xml:space="preserve">
+    <value>Sig.</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSig.Name" xml:space="preserve">
+    <value>lbSimpleSig</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleSig.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbSimpleAnt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbSimpleAnt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="lbSimpleAnt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbSimpleAnt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 380</value>
+  </data>
+  <data name="lbSimpleAnt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 17</value>
+  </data>
+  <data name="lbSimpleAnt.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lbSimpleAnt.Text" xml:space="preserve">
+    <value>Ant.</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleAnt.Name" xml:space="preserve">
+    <value>lbSimpleAnt</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleAnt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleAnt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbSimpleAnt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnActualizar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnActualizar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnActualizar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="btnActualizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        gg==
+</value>
+  </data>
+  <data name="btnActualizar.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnActualizar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnActualizar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 177</value>
+  </data>
+  <data name="btnActualizar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 51</value>
+  </data>
+  <data name="btnActualizar.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="btnActualizar.Text" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="btnActualizar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnActualizar.Name" xml:space="preserve">
+    <value>btnActualizar</value>
+  </data>
+  <data name="&gt;&gt;btnActualizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnActualizar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnActualizar.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -2810,6 +3328,12 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Oftalmol-Go</value>
+  </data>
+  <data name="&gt;&gt;TmHoraR.Name" xml:space="preserve">
+    <value>TmHoraR</value>
+  </data>
+  <data name="&gt;&gt;TmHoraR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormMenu</value>
